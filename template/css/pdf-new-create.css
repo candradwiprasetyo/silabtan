@@ -1,0 +1,55 @@
+table.table-new
+{
+	border: solid 1px #DDDDDD;
+	border-radius:10px;
+	width: 500px;
+}
+
+table.table-new > thead > tr > th
+{
+	cursor: pointer;
+	text-align: center;
+}
+
+table.table-new th, 
+table.table-new td
+{
+	margin: 0;
+	padding: 3px;
+}
+table.table-new thead th,
+table.table-new thead td
+{
+	background: maroon;
+	color: #FFFFFF;
+	border: 1px solid #DDDDDD;
+}
+table.table-new tbody th,
+table.table-new tbody td
+{
+	background: #ffffff;
+	border: 1px solid #DDDDDD;
+}
+table.table-new tbody tr:nth-child(even) th,
+table.table-new tbody tr:nth-child(even) td
+{
+	background: #f7f7f7;
+	border: 1px solid #CCCCCC;
+}
+table.table-new tbody tr:hover th,
+table.table-new tbody tr:hover td
+{
+	/*border: 1px solid #333333;*/
+	background:lightgoldenrodyellow;
+}
+table.table-new tfoot th,
+table.table-new tfoot td
+{
+	background: #eeeeee;
+	color: #333333;
+	border: 1px solid #DDDDDD;
+}
+	@page(){
+		margin-left: 2px;
+		margin-right: 2px;
+	}

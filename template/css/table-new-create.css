@@ -1,0 +1,88 @@
+.panel
+{
+	box-shadow:none;
+}
+
+/*.sorting,
+.sorting_asc,
+.sorting_desc
+{
+	background-image:none;
+}*/
+
+.sorting 
+{
+	background-image: url('../images/sort_both.png') !important;
+}
+
+.sorting_asc 
+{
+	background-image: url('../images/sort_asc.png') !important;
+}
+
+.sorting_desc 
+{
+	background-image: url('../images/sort_desc.png') !important;
+}
+
+table.table-new
+{
+	border: solid 1px #DDDDDD;
+	border-radius:10px;
+}
+
+table.table-new > thead > tr > th
+{
+	cursor: pointer;
+	text-align: center;
+}
+
+table.table-new th, 
+table.table-new td
+{
+	margin: 0;
+	padding: 3px;
+}
+table.table-new thead th,
+table.table-new thead td
+{
+	color: #333333;
+	border: 1px solid #DDDDDD;
+}
+table.table-new tbody th,
+table.table-new tbody td
+{
+	background: #ffffff;
+	border: 1px solid #DDDDDD;
+}
+table.table-new tbody td .glyphicon
+{
+	top:0;
+}
+table.table-new tbody tr:nth-child(even) th,
+table.table-new tbody tr:nth-child(even) td
+{
+	background: #f7f7f7;
+	border: 1px solid #DDDDDD;
+}
+table.table-new tbody tr:hover th,
+table.table-new tbody tr:hover td
+{
+	/*border: 1px solid #333333;*/
+	background:#C4E3F3;
+}
+table.table-new tfoot th,
+table.table-new tfoot td
+{
+	background: #eeeeee;
+	color: #333333;
+	border: 1px solid #DDDDDD;
+}
+
+/*.paging_full_numbers a.paginate_active
+{
+	background-color: #da251d;
+	border-color: #da251d;
+	color: #FFFFFF;
+}*/
+
