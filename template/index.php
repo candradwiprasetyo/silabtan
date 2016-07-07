@@ -186,7 +186,7 @@ session_start();
 								<a href="?page=profile"><i class="fa fa-user"></i> <span>Profile</span></a>
 							</li>
 							<li>
-								<a href=""><i class="fa fa-cog"></i> <span>Account Settings</span></a>
+								<a href="?page=account_settings"><i class="fa fa-cog"></i> <span>Account Settings</span></a>
 							</li>
 							<li>
 								<a href=""><i class="fa fa-question-circle"></i> <span>Help</span></a>
@@ -266,7 +266,7 @@ session_start();
 											<a href="?page=myprofile"><i class="glyphicon glyphicon-user"></i> My Profile</a>
 										</li>
 										<li>
-											<a href="#"><i class="glyphicon glyphicon-cog"></i> Account Settings</a>
+											<a href="?page=account_settings"><i class="glyphicon glyphicon-cog"></i> Account Settings</a>
 										</li>
 										<li>
 											<a href="#"><i class="glyphicon glyphicon-question-sign"></i> Help</a>
