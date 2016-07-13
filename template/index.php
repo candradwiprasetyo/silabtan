@@ -257,7 +257,7 @@ session_start();
 							<li>
 								<div class="btn-group">
 									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-										<img src= <?php echo $hasilFoto['pictureprofile']; ?> alt="" />
+										<img src= <?php echo $hasilFoto['pictureprofile']; ?> />
 										<?php echo $_SESSION['nama']; ?>
 										<span class="caret"></span>
 									</button>
