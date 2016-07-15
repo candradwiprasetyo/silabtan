@@ -226,6 +226,10 @@ session_start();
 						<a href="<?php echo($base_url."infoBeli"); ?>"><i class="fa fa-shopping-cart"></i> <span>Info Butuh</span></a>
 					</li>
 					<li>
+						<a href="<?php echo($base_url."pesan"); ?>"><i class="fa fa-envelope"></i> <span>Pesan</span></a>
+					</li>
+					<li>
+
 						<a href=""><i class="fa fa-bars"></i> <span>More...</span></a>
 					</li>
 					</ul>
